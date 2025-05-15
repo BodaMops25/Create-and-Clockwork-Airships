@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:0
+ignoreUpdate:383
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -24,7 +24,7 @@ minimapSize:0
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
-minimapOpacity:100.0
+minimapOpacity:65.0
 waypointsIngameIconScale:0
 waypointsIngameDistanceScale:0
 waypointsIngameNameScale:0
@@ -32,7 +32,7 @@ waypointsIngameCloseScale:1.0
 antiAliasing:true
 blockColours:0
 lighting:true
-dotsStyle:0
+dotsStyle:1
 dotNameScale:1.0
 compassOverEverything:true
 showFlowers:true
@@ -43,7 +43,7 @@ defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
 arrowScale:1.5
 arrowColour:0
-smoothDots:true
+smoothDots:false
 worldMap:true
 terrainDepth:true
 terrainSlopes:2
@@ -60,7 +60,7 @@ biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
 centeredEnlarged:false
-zoomOnEnlarged:0
+zoomOnEnlarged:2
 minimapTextAlign:0
 waypointsMutualEdit:true
 compassLocation:1
@@ -70,14 +70,14 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
-potionEffectPushBox:1
+potionEffectPushBox:0
 minimapFrame:0
 minimapFrameColor:9
 compassColor:9

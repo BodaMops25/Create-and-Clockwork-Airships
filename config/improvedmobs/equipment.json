@@ -1,0 +1,888 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "create_sa:blazing_axe": [
+      2761,
+      0.95369714
+    ],
+    "create_sa:blazing_cleaver": [
+      2819,
+      0.8790464
+    ],
+    "create_sa:brass_axe": [
+      2744,
+      0.9755281
+    ],
+    "create_sa:brass_sword": [
+      2806,
+      0.89580816
+    ],
+    "create_sa:copper_axe": [
+      3349,
+      0.031199997
+    ],
+    "create_sa:copper_sword": [
+      3374,
+      0.028699998
+    ],
+    "create_sa:experience_axe": [
+      3112,
+      0.46648473
+    ],
+    "create_sa:experience_sword": [
+      3148,
+      0.36782715
+    ],
+    "create_sa:rose_quartz_axe": [
+      715,
+      5.322494
+    ],
+    "create_sa:rose_quartz_sword": [
+      748,
+      5.2525306
+    ],
+    "create_sa:zinc_axe": [
+      3084,
+      0.51635593
+    ],
+    "create_sa:zinc_sword": [
+      3171,
+      0.049
+    ],
+    "create_sabers:brass_saber_black": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_black_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_blue": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_blue_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_galaxy": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_galaxy_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_lime": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_lime_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_orange": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_orange_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_pink": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_pink_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_purple": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_purple_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_red": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_red_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_white": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_white_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:brass_saber_yellow": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:brass_saber_yellow_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:copper_saber_black": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_black_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_blue": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_blue_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_lime": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_lime_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_orange": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_orange_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_pink": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_pink_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_purple": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_purple_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_red": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_red_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_white": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_white_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:copper_saber_yellow": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:copper_saber_yellow_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_brass_saber_black": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_black_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_blue": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_blue_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_lime": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_lime_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_orange": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_orange_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_pink": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_pink_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_purple": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_purple_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_red": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_red_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_white": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_white_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_brass_saber_yellow": [
+      2806,
+      0.89580816
+    ],
+    "create_sabers:double_brass_saber_yellow_off": [
+      2891,
+      0.7856766
+    ],
+    "create_sabers:double_copper_saber_black": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_black_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_blue": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_blue_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_lime": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_lime_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_orange": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_orange_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_pink": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_pink_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_purple": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_purple_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_red": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_red_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_white": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_white_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_copper_saber_yellow": [
+      3374,
+      0.028699998
+    ],
+    "create_sabers:double_copper_saber_yellow_off": [
+      3434,
+      0.022699999
+    ],
+    "create_sabers:double_zinc_saber_black": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_black_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_blue": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_blue_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_lime": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_lime_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_orange": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_orange_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_pink": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_pink_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_purple": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_purple_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_red": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_red_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_white": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_white_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:double_zinc_saber_yellow": [
+      3171,
+      0.049
+    ],
+    "create_sabers:double_zinc_saber_yellow_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_black": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_black_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_blue": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_blue_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_lime": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_lime_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_orange": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_orange_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_pink": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_pink_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_purple": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_purple_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_red": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_red_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_white": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_white_off": [
+      3231,
+      0.042999998
+    ],
+    "create_sabers:zinc_saber_yellow": [
+      3171,
+      0.049
+    ],
+    "create_sabers:zinc_saber_yellow_off": [
+      3231,
+      0.042999998
+    ],
+    "create_things_and_misc:brass_knife": [
+      3447,
+      0.021399999
+    ],
+    "create_things_and_misc:copper_knife": [
+      3464,
+      0.019699998
+    ],
+    "create_things_and_misc:zinc_knife": [
+      3464,
+      0.019699998
+    ],
+    "minecraft:bow": [
+      1093,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      1387,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      856,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      918,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      2061,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      3517,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      3580,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      3084,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      3171,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      2161,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      20,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      90,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      3111,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      2161,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      3287,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      3395,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      1961,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      1161,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      3471,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      3534,
+      0.0127
+    ]
+  },
+  "OFFHAND": {
+    "minecraft:ender_pearl": [
+      675,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      647,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      275,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      353,
+      1.6255897
+    ]
+  },
+  "FEET": {
+    "create:copper_diving_boots": [
+      1122,
+      0.5113901
+    ],
+    "create:netherite_diving_boots": [
+      61,
+      1.9030677
+    ],
+    "create_sa:brass_boots": [
+      390,
+      1.4754212
+    ],
+    "create_sa:copper_boots": [
+      762,
+      0.9973453
+    ],
+    "create_sa:slime_boots": [
+      716,
+      1.0563377
+    ],
+    "create_sa:zinc_boots": [
+      611,
+      1.1909808
+    ],
+    "create_things_and_misc:sticky_boots_boots": [
+      67,
+      1.8952204
+    ],
+    "minecraft:chainmail_boots": [
+      1104,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      188,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      1170,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      856,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      1452,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      61,
+      1.9030677
+    ]
+  },
+  "LEGS": {
+    "create_sa:brass_leggings": [
+      390,
+      1.4754212
+    ],
+    "create_sa:copper_leggings": [
+      762,
+      0.9973453
+    ],
+    "create_sa:zinc_leggings": [
+      611,
+      1.1909808
+    ],
+    "minecraft:chainmail_leggings": [
+      1104,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      188,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      1170,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      856,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      1452,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      61,
+      1.9030677
+    ]
+  },
+  "CHEST": {
+    "create:copper_backtank": [
+      1122,
+      0.5113901
+    ],
+    "create:netherite_backtank": [
+      61,
+      1.9030677
+    ],
+    "create_sa:andesite_exoskeleton_chestplate": [
+      487,
+      1.3503351
+    ],
+    "create_sa:andesite_jetpack_chestplate": [
+      611,
+      1.1909808
+    ],
+    "create_sa:brass_chestplate": [
+      390,
+      1.4754212
+    ],
+    "create_sa:brass_exoskeleton_chestplate": [
+      252,
+      1.6541448
+    ],
+    "create_sa:brass_jetpack_chestplate": [
+      520,
+      1.3078723
+    ],
+    "create_sa:copper_chestplate": [
+      762,
+      0.9973453
+    ],
+    "create_sa:copper_exoskeleton_chestplate": [
+      646,
+      1.1460843
+    ],
+    "create_sa:copper_jetpack_chestplate": [
+      646,
+      1.1460843
+    ],
+    "create_sa:zinc_chestplate": [
+      611,
+      1.1909808
+    ],
+    "minecraft:chainmail_chestplate": [
+      1104,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      188,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      1170,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      856,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      1452,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      61,
+      1.9030677
+    ]
+  },
+  "HEAD": {
+    "create:copper_diving_helmet": [
+      1122,
+      0.5113901
+    ],
+    "create:netherite_diving_helmet": [
+      61,
+      1.9030677
+    ],
+    "create_sa:brass_helmet": [
+      390,
+      1.4754212
+    ],
+    "create_sa:copper_helmet": [
+      762,
+      0.9973453
+    ],
+    "create_sa:slime_helmet": [
+      716,
+      1.0563377
+    ],
+    "create_sa:zinc_helmet": [
+      611,
+      1.1909808
+    ],
+    "minecraft:chainmail_helmet": [
+      1104,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      188,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      1170,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      856,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      1452,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      61,
+      1.9030677
+    ],
+    "minecraft:turtle_helmet": [
+      800,
+      0.948558
+    ],
+    "railways:black_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:blue_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:brown_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:cyan_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:gray_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:green_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:light_blue_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:light_gray_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:lime_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:magenta_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:orange_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:pink_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:purple_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:red_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:white_conductor_cap": [
+      1066,
+      0.59678036
+    ],
+    "railways:yellow_conductor_cap": [
+      1066,
+      0.59678036
+    ]
+  }
+}

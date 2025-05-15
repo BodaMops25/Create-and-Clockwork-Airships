@@ -10,21 +10,21 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayed": true,
     "displayHeight": 0.0,
+    "displayed": true,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
-    "displayNameWhenIconFails": true,
+    "displayNameWhenIconFails": false,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
+    "dotSize": 1.0,
     "startFadingAt": 0.0,
-    "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
-    "icons": 1.0,
-    "names": 0.0,
+    "icons": 2.0,
     "heightLimit": 20.0,
-    "iconScale": 1.0
+    "names": 1.0,
+    "iconScale": 0.6000000000000001
   },
   "subCategories": [
     {
@@ -52,8 +52,8 @@
           "protection": true,
           "settingOverrides": {
             "renderOrder": 6.0,
-            "heightLimit": 2050.0,
-            "color": 15.0
+            "color": 15.0,
+            "heightLimit": 2050.0
           },
           "subCategories": [
             {
@@ -170,7 +170,9 @@
       "protection": true,
       "settingOverrides": {
         "renderOrder": 1.0,
-        "color": 12.0
+        "color": 12.0,
+        "icons": 2.0,
+        "names": 2.0
       },
       "subCategories": []
     },
@@ -183,9 +185,29 @@
       "name": "gui.xaero_entity_category_other_entities",
       "protection": true,
       "settingOverrides": {
-        "color": 5.0
+        "color": 5.0,
+        "names": 2.0
       },
-      "subCategories": []
+      "subCategories": [
+        {
+          "hardInclude": "nothing",
+          "includeList": [
+            "create:crafting_blueprint",
+            "create:super_glue",
+            "minecraft:painting",
+            "zombieawareness:scent"
+          ],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "mods tectnical entities",
+          "protection": false,
+          "settingOverrides": {
+            "displayed": false
+          },
+          "subCategories": []
+        }
+      ]
     }
   ]
 }
